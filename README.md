@@ -1,6 +1,6 @@
 # Intl-agent
 
-Intl-agent is an automation tool designed to streamline the localization process of applications by automatically translating strings enclosed within double hashes (`##string##`) in all files within your `src` directory. These strings are translated and saved into an `intl` directory, and the generated keys replace the original strings in the source files.
+intl-agent is an automation tool designed to streamline the localization process of applications by automatically translating strings enclosed within double hashes (`##string##`) in all files within your `src` directory. These strings are translated and saved into an `intl` directory, and the generated keys replace the original strings in the source files.
 
 ## Features
 
@@ -11,23 +11,23 @@ Intl-agent is an automation tool designed to streamline the localization process
 
 ## Prerequisites
 
-To use Intl-agent, ensure that you have:
+To use intl-agent, ensure that you have:
 
 - Node.js installed on your system.
 - An OpenAI account with API access.
 
 ## Installation
 
-Install Intl-agent using npm:
+Install intl-agent using npm:
 
 ```sh
-npm install Intl-agent
+npm install intl-agent
 ```
 
 Alternatively, to install it globally and use it across multiple projects:
 
 ```sh
-npm install -g Intl-agent
+npm install -g intl-agent
 ```
 
 ## Configuration
@@ -48,10 +48,10 @@ PREFIX=your_default_prefix_here
 
 ## Usage
 
-After installation and configuration, run Intl-agent from a directory which contain a src folder of your project with the following command:
+After installation and configuration, run intl-agent from a directory which contain a src folder of your project with the following command:
 
 ``` sh
-Intl-agent
+intl-agent
 ```
 
 
@@ -60,7 +60,7 @@ Intl-agent will process all the strings within the `src` directory, translate th
 
 ## Contributing
 
-If you'd like to contribute to the development of Intl-agent, please follow the standard fork and pull request workflow.
+If you'd like to contribute to the development of intl-agent, please follow the standard fork and pull request workflow.
 
 ## License
 
