@@ -1,5 +1,7 @@
 # Intl-agent
 
+video demonstration [here](https://www.youtube.com/watch?v=De_BsVqfskc&ab_channel=GabrielAttal)
+
 intl-agent is an automation tool designed to streamline the localization process of applications by automatically translating strings enclosed within double hashes (`##string##`) in all files within your `src` directory. These strings are translated and saved into an `intl` directory, and the generated keys replace the original strings in the source files.
 
 ## Features
