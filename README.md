@@ -37,6 +37,7 @@ Set up the following environment variables in your project:
 - `OPENAI_API_KEY`: Your OpenAI API key.
 - `DEFAULT_LANGUAGE`: The default language code for the translations (e.g., 'en' for English, 'fr' for French).
 - `PREFIX`: An optional default prefix to prepend to your translation keys.
+- `SUFFIX`: An optional default suffix to append to your translation keys.
 
 Create a `.env` file in the root of your project with the following content:
 
@@ -44,6 +45,7 @@ Create a `.env` file in the root of your project with the following content:
 OPENAI_API_KEY=your_openai_api_key_here
 DEFAULT_LANGUAGE=fr
 PREFIX=your_default_prefix_here
+SUFFIX=your_default_suffix_here
 ```
 
 ## Usage

@@ -11,7 +11,8 @@ async function replaceStringsInFiles(filePath, stringToKeyMap) {
         const normalizedString = normalizeString(originalString);
         const regex = new RegExp(`##\\s*${ escapeRegExp(normalizedString) }\\s*##`, "gi");
         const prefix = process.env.PREFIX;
-        const newContent = content.replace(regex, `${prefix}.${ key }`);
+        const suffix = process.env.SUFFIX;
+        const newContent = content.replace(regex, `${prefix}.${ key }.${suffix}`);
         if (newContent !== content) {
             content = newContent;
             replacementsCount++;
