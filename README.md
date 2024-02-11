@@ -1,6 +1,6 @@
-# Auto-Intl
+# Intl-agent
 
-Auto-Intl is an automation tool designed to streamline the localization process of applications by automatically translating strings enclosed within double hashes (`##string##`) in all files within your `src` directory. These strings are translated and saved into an `intl` directory, and the generated keys replace the original strings in the source files.
+Intl-agent is an automation tool designed to streamline the localization process of applications by automatically translating strings enclosed within double hashes (`##string##`) in all files within your `src` directory. These strings are translated and saved into an `intl` directory, and the generated keys replace the original strings in the source files.
 
 ## Features
 
@@ -11,23 +11,23 @@ Auto-Intl is an automation tool designed to streamline the localization process 
 
 ## Prerequisites
 
-To use Auto-Intl, ensure that you have:
+To use Intl-agent, ensure that you have:
 
 - Node.js installed on your system.
 - An OpenAI account with API access.
 
 ## Installation
 
-Install Auto-Intl using npm:
+Install Intl-agent using npm:
 
 ```sh
-npm install auto-intl
+npm install Intl-agent
 ```
 
 Alternatively, to install it globally and use it across multiple projects:
 
 ```sh
-npm install -g auto-intl
+npm install -g Intl-agent
 ```
 
 ## Configuration
@@ -48,19 +48,19 @@ PREFIX=your_default_prefix_here
 
 ## Usage
 
-After installation and configuration, run Auto-Intl from a directory which contain a src folder of your project with the following command:
+After installation and configuration, run Intl-agent from a directory which contain a src folder of your project with the following command:
 
 ``` sh
-auto-intl
+Intl-agent
 ```
 
 
 
-Auto-Intl will process all the strings within the `src` directory, translate them using OpenAI, and save the translations in the `intl` directory. It will then replace the strings in the source files with the generated keys.
+Intl-agent will process all the strings within the `src` directory, translate them using OpenAI, and save the translations in the `intl` directory. It will then replace the strings in the source files with the generated keys.
 
 ## Contributing
 
-If you'd like to contribute to the development of Auto-Intl, please follow the standard fork and pull request workflow.
+If you'd like to contribute to the development of Intl-agent, please follow the standard fork and pull request workflow.
 
 ## License
 
