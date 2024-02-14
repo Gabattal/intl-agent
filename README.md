@@ -4,6 +4,22 @@ little presentation [here](https://www.youtube.com/watch?v=De_BsVqfskc&ab_channe
 
 intl-agent is an automation tool designed to streamline the localization process of applications by automatically translating strings enclosed within double hashes (`##string##`) in all files within your `src` directory. These strings are translated and saved into an `intl` directory, and the generated keys replace the original strings in the source files.
 
+shortly, how it works ?
+
+you do this :
+
+ ```<div>## Hello it's me Mario ##</div>```
+
+then in your teminal
+
+```intl-agent```
+
+and MAGIC, your div became
+
+ ```<div>{{t('shortPresentationOfMario')}}</div>``` 
+
+And it also creates all the keys and translations in your different json (if you have en.json and fr.json for example)
+
 ## Features
 
 - **Automatic String Detection**: Scans the `src` directory for strings marked for translation.
