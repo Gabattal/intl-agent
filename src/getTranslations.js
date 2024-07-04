@@ -31,7 +31,7 @@ Remember, the keys such as 'tastyBurger' and 'greetingSamuel' are not translatio
         const response = await openai.chat.completions.create({
             max_tokens: 1000,
             messages: [{ content: prompt, role: "user" }],
-            model: "gpt-3.5-turbo-0613",
+            model: "gpt-4-1106-preview",
             temperature: 0
         });
 

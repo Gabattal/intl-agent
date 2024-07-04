@@ -1,6 +1,6 @@
 {
   "name": "intl-agent",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "This package offers an automated solution for translating text strings and generating unique keys in internationalized (intl) files. It automatically replaces text strings in your files with these generated keys, facilitating the localization and internationalization process for your applications.",
   "main": "./src/index.js",
   "bin": {
